@@ -78,7 +78,7 @@ const Schedule = () => {
         <SectionTitle>Quais são os módulos do curso?</SectionTitle>
         <CardsWrapper>
           {Modules.map((item) => (
-            <Card>
+            <Card key={item.id} >
               <Topline style={{ padding: 0 }} >Módulo {item.id}</Topline>
               <CardTitle>{item.title}</CardTitle>
               <CardSubtitle>{item.description}</CardSubtitle>
