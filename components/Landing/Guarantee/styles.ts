@@ -61,11 +61,6 @@ export const ImageWrapper = styled.div`
     position: relative !important;
     height: unset !important;
     transition: transform 0.5s ease-in-out;
-
-    &:hover {
-      transform: scale(1.1);
-      transition: transform 0.5s ease-in-out;
-    }
   }
 `
 export const SectionTitle = styled.h2`
