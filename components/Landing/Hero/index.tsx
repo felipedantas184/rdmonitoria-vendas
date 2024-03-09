@@ -7,7 +7,7 @@ const Hero = () => {
       <Wrapper>
         <First>
           <LogoWrapper>
-            <Image src={'/assets/images/smallLogo.png'} alt="Curso Matemática Ativa RD Monitoria" fill className={'image'} />
+            <Image src={'/assets/images/smallLogo.png'} alt="Curso Matemática Ativa RD Monitoria" fill className={'image'} priority />
           </LogoWrapper>
           <HeroTitle>Domine agora a Matemática do ENEM e melhore de vez o seu desempenho nos Simulados Enem!</HeroTitle>
           <HeroSubtitle>É a solução que você precisa para alcançar uma pontuação excelente no vestibular e também ficar mais próximo da sua aprovação dos sonhos!</HeroSubtitle>
