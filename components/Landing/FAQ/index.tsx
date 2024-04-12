@@ -26,7 +26,7 @@ const FAQ = () => {
     },
     {
       id: '5',
-      question: 'Quais as formas de pagamento?',
+      question: 'Quais são as formas de pagamento?',
       answer: 'Aceitamos quase todas as formas de pagamentos disponíveis no mercado! Você pode pagar no boleto, no pix ou por meio dos cartões de crédito ou débito!'
     },
   ]
