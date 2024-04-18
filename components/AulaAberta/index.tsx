@@ -19,7 +19,7 @@ const AulaAberta = () => {
             <TeacherWrapper>
               <ImageWrapper>
                 <Image src={'/assets/images/andreisac.png'} alt="Curso Matemática Ativa RD Monitoria" fill className={'image'} />
-              </ImageWrapper>              
+              </ImageWrapper>
               <TeacherName>André Isac</TeacherName>
               <TeacherAchieves>
                 <Achieve>926 em Matemática</Achieve>
@@ -30,7 +30,7 @@ const AulaAberta = () => {
             <TeacherWrapper>
               <ImageWrapper>
                 <Image src={'/assets/images/felipedantas.png'} alt="Curso Matemática Ativa RD Monitoria" fill className={'image'} />
-              </ImageWrapper>                 
+              </ImageWrapper>
               <TeacherName>Felipe Dantas</TeacherName>
               <TeacherAchieves>
                 <Achieve>980 em Matemática</Achieve>
@@ -64,6 +64,8 @@ const AulaAberta = () => {
           <PerkTitle>Listas e Gravações</PerkTitle>
           <PerkSubtitle>Você terá acesso às listas anteriores e às gravações dos aulões e das resoluções do SAS 01 de 2024!</PerkSubtitle>
         </Perk>
+      </Wrapper>
+      <Wrapper>
         <Second>
           <TimeWrapper>
             <ToplineGreen>Aula Aberta</ToplineGreen>
