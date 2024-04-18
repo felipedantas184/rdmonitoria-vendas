@@ -1,5 +1,9 @@
 import Image from "next/image";
 import { Achieve, First, ImageWrapper, Second, Section, Subtitle, TeacherAchieves, TeacherName, TeacherWrapper, Teachers, TextWrapper, TimeWrapper, Title, TitleWhite, Topline, ToplineGreen, WhatsAppButtom, Wrapper } from "./styles";
+import { Perk, PerkSubtitle, PerkTitle } from "../Landing/Perks/styles";
+import { MdOutlineSecurity, MdOutlineVpnKey } from "react-icons/md";
+import { GoVerified } from "react-icons/go";
+import { BiVideo } from "react-icons/bi";
 
 const AulaAberta = () => {
   return (
@@ -7,7 +11,7 @@ const AulaAberta = () => {
       <Wrapper>
         <First>
           <TextWrapper>
-            <Topline>Segundo</Topline>
+            <Topline>Terceiro</Topline>
             <Title>Aulão de Matemática</Title>
             <Subtitle>Resolução de questões, revisão teórica e dicas rápidas</Subtitle>
           </TextWrapper>
@@ -39,7 +43,31 @@ const AulaAberta = () => {
         <Second>
           <TimeWrapper>
             <ToplineGreen>Aula Aberta</ToplineGreen>
-            <TitleWhite>Domingo - 14/04<br />ÀS 10h00</TitleWhite>
+            <TitleWhite>Domingo - 21/04<br />ÀS 14h00</TitleWhite>
+          </TimeWrapper>
+          <WhatsAppButtom href="https://chat.whatsapp.com/LBVAK6ZhzH6LgBawKFpgxh" target="_blank" >Quero Participar!</WhatsAppButtom>
+        </Second>
+      </Wrapper>
+      <Wrapper>
+        <Perk>
+          <MdOutlineVpnKey size={32} color="#765D19" />
+          <PerkTitle>Acesso à Aula Gratuita</PerkTitle>
+          <PerkSubtitle>Ao entrar no nosso grupo você receberá todas as informações para participar do nosso Terceiro Aulão de Matemática.</PerkSubtitle>
+        </Perk>
+        <Perk>
+          <GoVerified size={32} color="#765D19" />
+          <PerkTitle>Super Drive</PerkTitle>
+          <PerkSubtitle>No grupo você também encontra o link para o nosso drive com as listas dos Aulões, simulados e provas antigas do ENEM</PerkSubtitle>
+        </Perk>
+        <Perk>
+          <BiVideo size={32} color="#765D19" />
+          <PerkTitle>Listas e Gravações</PerkTitle>
+          <PerkSubtitle>Você terá acesso às listas anteriores e às gravações dos aulões e das resoluções do SAS 01 de 2024!</PerkSubtitle>
+        </Perk>
+        <Second>
+          <TimeWrapper>
+            <ToplineGreen>Aula Aberta</ToplineGreen>
+            <TitleWhite>Domingo - 21/04<br />ÀS 14h00</TitleWhite>
           </TimeWrapper>
           <WhatsAppButtom href="https://chat.whatsapp.com/LBVAK6ZhzH6LgBawKFpgxh" target="_blank" >Quero Participar!</WhatsAppButtom>
         </Second>
