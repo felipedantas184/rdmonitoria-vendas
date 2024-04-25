@@ -43,31 +43,31 @@ const Schedule = () => {
     {
       id: '07',
       title: 'Módulo Mix 01',
-      description: 'Revisão de assuntos e questões variadas'
+      description: 'Revisão de assuntos e mix de questões'
     },
     {
       id: '08',
       title: 'Módulo Mix 02',
-      description: 'Revisão de assuntos e questões variadas'
+      description: 'Revisão de assuntos e mix de questões'
     },
     {
       id: '09',
       title: 'Módulo Mix 03',
-      description: 'Revisão de assuntos e questões variadas'
+      description: 'Revisão de assuntos e mix de questões'
     },
     {
       id: '10',
       title: 'Módulo Mix 04',
-      description: 'Revisão de assuntos e questões variadas'
+      description: 'Revisão de assuntos e mix de questões'
     }, {
       id: '11',
       title: 'Módulo Mix 05',
-      description: 'Revisão de assuntos e questões variadas'
+      description: 'Revisão de assuntos e mix de questões'
     },
     {
       id: '12',
       title: 'Módulo Mix 06',
-      description: 'Revisão de assuntos e questões variadas'
+      description: 'Revisão de assuntos e mix de questões'
     },
   ]
 

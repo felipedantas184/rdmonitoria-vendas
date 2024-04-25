@@ -47,7 +47,7 @@ export const CardsWrapper = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 `
 export const Card = styled.div`

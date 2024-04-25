@@ -1,7 +1,8 @@
-import AulaAberta from '@/components/AulaAberta'
+import Event from '@/components/Event'
+import About from '@/components/Landing/About'
 import Head from 'next/head'
 
-export default function MentoriaPage() {
+export default function EventPage() {
   return (
     <>
       <Head>
@@ -19,7 +20,8 @@ export default function MentoriaPage() {
         <meta property="twitter:description" content="Vem aí o Segundo Aulão de Matemática da RD Monitoria! Uma aula aberta pra gente resolver alguns dos modelos de questões que mais aparecem no ENEM e pra dar dicas de como resolver mais rápido as questões!"/>
         <meta property="twitter:image" content="/apple-touch-icon.png"/>
       </Head>
-      <AulaAberta />
+      <Event />
+      <About />
     </>
   )
 }
