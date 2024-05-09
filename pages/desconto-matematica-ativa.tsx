@@ -14,18 +14,18 @@ export default function DiscountPage() {
   return (
     <>
       <Head>
-        <title>Aulão de Matemática | RD Monitoria</title>
-        <meta name="description" content="Vem aí o Segundo Aulão de Matemática da RD Monitoria! Uma aula aberta pra gente resolver alguns dos modelos de questões que mais aparecem no ENEM e pra dar dicas de como resolver mais rápid as questões!*" />
+        <title>Matemática Ativa - Reserve Sua Vaga | RD Monitoria</title>
+        <meta name="description" content="Domine agora a Matemática do ENEM e melhore de vez o seu desempenho nos Simulados Enem e Reserve sua vaga com R$300 de desconto!" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         
-        <meta property="og:title" content="Aulão de Matemátoca | RD Monitoria"/>
+        <meta property="og:title" content="Matemática Ativa - Reserve Sua Vaga | RD Monitoria"/>
         <meta property="og:type" content="school"/>
-        <meta property="og:description" content="Vem aí o Segundo Aulão de Matemática da RD Monitoria! Uma aula aberta pra gente resolver alguns dos modelos de questões que mais aparecem no ENEM e pra dar dicas de como resolver mais rápido as questões!"/>
+        <meta property="og:description" content="Domine agora a Matemática do ENEM e melhore de vez o seu desempenho nos Simulados Enem e Reserve sua vaga com R$300 de desconto!"/>
         <meta property="og:image" content="/apple-touch-icon.png"/>
         <meta property="og:site_name" content="RD Monitoria"/>
 
-        <meta property="twitter:title" content="Aulão de Matemátoca | RD Monitoria"/>
-        <meta property="twitter:description" content="Vem aí o Segundo Aulão de Matemática da RD Monitoria! Uma aula aberta pra gente resolver alguns dos modelos de questões que mais aparecem no ENEM e pra dar dicas de como resolver mais rápido as questões!"/>
+        <meta property="twitter:title" content="Matemática Ativa - Reserve Sua Vaga | RD Monitoria"/>
+        <meta property="twitter:description" content="Domine agora a Matemática do ENEM e melhore de vez o seu desempenho nos Simulados Enem e Reserve sua vaga com R$300 de desconto!"/>
         <meta property="twitter:image" content="/apple-touch-icon.png"/>
       </Head>
       <Hero />
