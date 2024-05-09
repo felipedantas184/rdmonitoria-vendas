@@ -1,8 +1,16 @@
-import Event from '@/components/Event'
 import About from '@/components/Landing/About'
+import Course from '@/components/Landing/Course'
+import FAQ from '@/components/Landing/FAQ'
+import ForWho from '@/components/Landing/ForWho'
+import HowItWorks from '@/components/Landing/HowItWorks'
+import Schedule from '@/components/Landing/Schedule'
+import Tired from '@/components/Landing/Tired'
+import Hero from '@/components/ReservarVaga/Hero'
+import Offer from '@/components/ReservarVaga/Offer'
+import Perks from '@/components/ReservarVaga/Perks'
 import Head from 'next/head'
 
-export default function EventPage() {
+export default function DiscountPage() {
   return (
     <>
       <Head>
@@ -20,8 +28,16 @@ export default function EventPage() {
         <meta property="twitter:description" content="Vem aí o Segundo Aulão de Matemática da RD Monitoria! Uma aula aberta pra gente resolver alguns dos modelos de questões que mais aparecem no ENEM e pra dar dicas de como resolver mais rápido as questões!"/>
         <meta property="twitter:image" content="/apple-touch-icon.png"/>
       </Head>
-      <Event />
+      <Hero />
+      <Perks />
+      <Course />
+      <ForWho />
+      <HowItWorks />
+      <Tired />
+      <Schedule />
       <About />
+      <Offer />
+      <FAQ />
     </>
   )
 }

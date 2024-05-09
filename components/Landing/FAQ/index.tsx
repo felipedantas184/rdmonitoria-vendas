@@ -48,7 +48,7 @@ const FAQ = () => {
           <Topline>F.A.Q</Topline>
           <SectionTitle>Perguntas Frequentes</SectionTitle>
           <SectionSubtitle>Ainda precisa de ajuda? Entre em contato e fale com um dos nossos especialistas clicando no botão abaixo:</SectionSubtitle>
-          <PrimaryButton>Quero falar com o suporte</PrimaryButton>
+          <PrimaryButton href={'https://api.whatsapp.com/send/?phone=5586995185757'} target='_blank' >Quero falar com o suporte</PrimaryButton>
         </First>
         <Second>
           <QuestionsBox>

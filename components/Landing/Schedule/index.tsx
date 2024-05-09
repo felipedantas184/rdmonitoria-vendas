@@ -85,7 +85,7 @@ const Schedule = () => {
             </Card>
           ))}
         </CardsWrapper>
-        <PrimaryButton>Garantir Vaga Agora</PrimaryButton>
+        <PrimaryButton href="https://chat.whatsapp.com/CedVt5xVH841NdmexVpGl2" target="_blank" >Reservar Vaga Com Desconto</PrimaryButton>
       </Wrapper>
     </Section>
   );

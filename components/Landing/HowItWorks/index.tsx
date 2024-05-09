@@ -13,6 +13,21 @@ const HowItWorks = () => {
         <Topline>Como funciona o Curso?</Topline>
         <SectionTitle>O que está incluso no Curso e como terei acesso?</SectionTitle>
         <CardsWrapper>
+        <Card>
+            <TbTargetArrow size={32} color="#411551" />
+            <CardTitle>12 Módulos Diretos ao Ponto</CardTitle>
+            <CardSubtitle>A metodologia conta com 12 módulos especiais e únicos que tratam desde os pilares e fundamentos, até dicas específicas para melhores resultados no simulado.</CardSubtitle>
+          </Card>
+          <Card>
+            <LuRefreshCcw size={32} color="#411551" />
+            <CardTitle>Resolução de Simulados</CardTitle>
+            <CardSubtitle>Quem estiver inscrito no curso terá <strong>encontros ao vivo e exclusivos para resolver e comentar diversos simulados</strong> até o ENEM, como o SAS e o Bernoulli.</CardSubtitle>
+          </Card>
+          <Card>
+            <BsCollectionPlay size={32} color="#411551" />
+            <CardTitle>Aulas 100% Online</CardTitle>
+            <CardSubtitle>Todas as aulas são 100% online, basta ter um acesso a internet e você pode assistir o Curso onde você quiser, quando quiser, sem perder tempo.</CardSubtitle>
+          </Card>
           <Card>
             <IoIosPeople size={32} color="#411551" />
             <CardTitle>Área de Membros Exclusiva</CardTitle>
@@ -22,21 +37,6 @@ const HowItWorks = () => {
             <FaKey size={32} color="#411551" />
             <CardTitle>Teoria e Prática sem Mistério</CardTitle>
             <CardSubtitle>O Curso te traz toda a parte teórica para você dominar os principais assuntos, e claro, a parte prática que é quando nós começamos fazer a coisa acontecer.</CardSubtitle>
-          </Card>
-          <Card>
-            <BsCollectionPlay size={32} color="#411551" />
-            <CardTitle>Aulas 100% Online</CardTitle>
-            <CardSubtitle>Todas as aulas são 100% online, basta ter um acesso a internet e você pode assistir o Curso onde você quiser, quando quiser, sem perder tempo.</CardSubtitle>
-          </Card>
-          <Card>
-            <TbTargetArrow size={32} color="#411551" />
-            <CardTitle>12 Módulos Diretos ao Ponto</CardTitle>
-            <CardSubtitle>A metodologia conta com 12 módulos especiais e únicos que tratam desde os pilares e fundamentos, até dicas específicas para melhores resultados no simulado.</CardSubtitle>
-          </Card>
-          <Card>
-            <LuRefreshCcw size={32} color="#411551" />
-            <CardTitle>Atualizações Frequentes</CardTitle>
-            <CardSubtitle>Estamos sempre em busca dos melhores resultados, por isso o Curso Matemática Ativa sempre está sendo atualizado com os melhores conteúdos.</CardSubtitle>
           </Card>
           <Card>
             <MdOutlineCardGiftcard size={32} color="#411551" />

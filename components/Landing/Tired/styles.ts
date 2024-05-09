@@ -129,20 +129,21 @@ export const PerkSubtitle = styled.h4`
     font-size: 14px;
   }
 `
-export const PrimaryButton = styled.button`
+export const PrimaryButton = styled.a`
   margin-left: auto;
   margin-right: auto;
+  max-width: 400px;
   margin-top: 16px;
   padding: 16px 24px;
   background-color: #B78836;
   background: linear-gradient(90deg, #B78836 0%, #FCEEA1 50%, #B78836 100%);
-  color: #3A3A3A;
+  color: #13131A;
   border: none;
   font-size: 18px;
   font-family: "Poppins";
   text-transform: uppercase;
   border-radius: 0px 30px;
-  font-weight: 600;
+  font-weight: 700;
 
   display: flex;
   flex-direction: row;
@@ -154,6 +155,6 @@ export const PrimaryButton = styled.button`
 
   &:hover {
       transform: scale(1.05);
-      color: #13131A;
+      color: #000;
     }
 `
