@@ -33,18 +33,6 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
-          <Script async src="https://www.googletagmanager.com/gtag/js?id=G-MWK8WVG5KZ"></Script>
-          <Script id='google-analytics' >
-            {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-MWK8WVG5KZ');
-            `}
-          </Script>
-
-
           <meta charSet="utf-8" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -61,6 +49,16 @@ export default class MyDocument extends Document {
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
           <link rel="manifest" href="/site.webmanifest" />
         </Head>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-MWK8WVG5KZ"></Script>
+        <Script id='google-analytics' >
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-MWK8WVG5KZ');
+            `}
+        </Script>
         <body>
           <Main />
           <NextScript />
