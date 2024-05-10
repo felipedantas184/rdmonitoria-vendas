@@ -54,8 +54,9 @@ const Tired = () => {
           <PerkTitle>Julianna</PerkTitle>
           <PerkSubtitle>Aprovado em Medicina na UNINOVAFAPI com as notas do Enem 2023</PerkSubtitle>
         </Perk>
+        <div></div>
+        <PrimaryButton href="https://chat.whatsapp.com/CedVt5xVH841NdmexVpGl2" target="_blank" >Reservar Vaga Com Desconto</PrimaryButton>
       </TestimonialsWrapper>
-      <PrimaryButton href="https://chat.whatsapp.com/CedVt5xVH841NdmexVpGl2" target="_blank" >Reservar Vaga Com Desconto</PrimaryButton>
     </Section>
   );
 }

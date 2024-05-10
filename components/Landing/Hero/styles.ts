@@ -100,6 +100,7 @@ export const PrimaryButton = styled.button`
   gap: 8px;
   cursor: pointer;
   transition: transform 0.5s ease-in-out;
+  text-align: center;
 
   &:hover {
       transform: scale(1.05);

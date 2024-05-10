@@ -82,7 +82,7 @@ export const CardSubtitle = styled.h4`
 `
 export const PrimaryButton = styled.a`
   margin-top: 16px;
-  padding: 16px 24px;
+  padding: 16px 12px;
   background-color: #B78836;
   background: linear-gradient(90deg, #B78836 0%, #FCEEA1 50%, #B78836 100%);
   color: #13131A;
@@ -92,6 +92,7 @@ export const PrimaryButton = styled.a`
   text-transform: uppercase;
   border-radius: 0px 30px;
   font-weight: 700;
+  text-align: center;
 
   display: flex;
   flex-direction: row;

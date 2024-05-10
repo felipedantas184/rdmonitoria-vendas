@@ -29,6 +29,10 @@ export const First = styled.div`
 	justify-content: center;
 	align-items: flex-start;
   gap: 8px;
+
+  @media screen and (max-width: 768px) {
+    align-items: center;
+  }
 `
 export const Second = styled.div`
 	flex: 1;
@@ -46,7 +50,8 @@ export const HeroTitle = styled.h1`
   font-weight: 600;
 
   @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 22px;
+    text-align: center;
   }
 `
 export const HeroSubtitle = styled.h4`
@@ -82,7 +87,7 @@ export const ImageWrapper = styled.div`
   }
 `
 export const PrimaryButton = styled.a`
-  padding: 16px 24px;
+  padding: 16px 12px;
   background-color: #B78836;
   background: linear-gradient(90deg, #B78836 0%, #FCEEA1 50%, #B78836 100%);
   color: #13131A;
@@ -100,6 +105,7 @@ export const PrimaryButton = styled.a`
   gap: 8px;
   cursor: pointer;
   transition: transform 0.5s ease-in-out;
+  text-align: center;
 
   &:hover {
       transform: scale(1.05);

@@ -32,7 +32,6 @@ export const First = styled.div`
 `
 export const Second = styled.div`
 	flex: 4;
-  padding: 8px;
 
 	display: flex;
 	flex-direction: column;
@@ -66,6 +65,7 @@ export const BonusBox = styled.div`
 
   @media screen and (max-width: 768px) {
     padding: 8px;
+    border-radius: 30px
   }
 `
 export const Topic = styled.div`
@@ -134,7 +134,7 @@ export const TopicPrice = styled.span`
 `
 export const TotalTopic = styled.div`
   width: 100%;
-	padding: 18px;
+	padding: 18px 0;
 	border-top: 1px dotted #DFDFDF;
 
   display: flex;
@@ -157,6 +157,10 @@ export const OfferBox = styled.div`
 
 	border: 1px solid #ECDBCA;
 	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+  @media screen and (max-width: 768px) {
+    padding: 16px;
+  }
 `
 export const OfferTitle = styled.span`
 	color: #444444;
@@ -197,7 +201,7 @@ export const OfferCoin = styled.span`
 export const PrimaryButton = styled.a`
   margin-top: 8px;
   margin-bottom: 8px;
-  padding: 16px 24px;
+  padding: 16px 12px;
   background-color: #B78836;
   background: linear-gradient(90deg, #B78836 0%, #FCEEA1 50%, #B78836 100%);
   color: #13131A;
@@ -207,6 +211,7 @@ export const PrimaryButton = styled.a`
   text-transform: uppercase;
   border-radius: 0px 30px;
   font-weight: 700;
+  text-align: center;
 
   display: flex;
   flex-direction: row;
@@ -220,6 +225,10 @@ export const PrimaryButton = styled.a`
       transform: scale(1.05);
       color: #000;
     }
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
 `
 export const OfferSpan = styled.span`
 	color: #363636;

@@ -13,7 +13,7 @@ const Offer = () => {
             <Topic><TopicGroup><FaCheckCircle size={16} color="#09CF83" /><TopicSpan><TopicBold>BÔNUS 03:</TopicBold> Acesso ao grupo exclusivo no WhatsApp para dicas e dúvidas</TopicSpan></TopicGroup><TopicPrice style={{textDecoration: 'line-through'}} >R$ 97,00</TopicPrice></Topic>
             <Topic><TopicGroup><FaCheckCircle size={16} color="#09CF83" /><TopicSpan><TopicBold>BÔNUS 04:</TopicBold> Todos os slides dos módulos teóricas do curso</TopicSpan></TopicGroup><TopicPrice style={{textDecoration: 'line-through'}} >R$ 47,00</TopicPrice></Topic>
             <Topic><TopicGroup><FaCheckCircle size={16} color="#09CF83" /><TopicSpan><TopicBold>BÔNUS 05:</TopicBold> Ebook O Guia Completo da Aprovação ENEM</TopicSpan></TopicGroup><TopicPrice style={{textDecoration: 'line-through'}} >R$ 47,00</TopicPrice></Topic>
-            <TotalTopic><TopicGroup><TopicSpan style={{fontWeight: 700, fontSize: 20}}>TOTAL:</TopicSpan></TopicGroup><TopicPrice style={{fontWeight: 600, fontSize: 20, margin: 0, textAlign: 'right'}}><TopicPrice style={{fontWeight: 600, color: 'red', fontSize: 18, textDecoration: 'line-through', marginRight: 8}} >R$ 547,00<br/></TopicPrice>Por R$ 247,00<br/><span style={{fontSize: 12, fontWeight: 400}}>(Só pra quem entrar no grupo de reservas)</span></TopicPrice></TotalTopic>
+            <TotalTopic><TopicGroup><TopicSpan style={{fontWeight: 700, fontSize: 20}}>TOTAL:</TopicSpan></TopicGroup><TopicPrice style={{fontWeight: 600, fontSize: 22, margin: 0, textAlign: 'right'}}><TopicPrice style={{fontWeight: 600, color: 'red', fontSize: 18, textDecoration: 'line-through', marginRight: 8}} >R$ 547,00<br/></TopicPrice><span  style={{fontSize: 14}}>6x</span> R$ 45,43<br/><span style={{fontSize: 12, fontWeight: 400}}>(Só pra quem entrar no grupo de reservas)</span></TopicPrice></TotalTopic>
           </BonusBox>
         </First>
         <Second>
@@ -23,7 +23,7 @@ const Offer = () => {
             <OfferBigPrice><OfferCoin>R$</OfferCoin>45,43<OfferSpan>/mês</OfferSpan></OfferBigPrice>
             <OfferSubtitle>ou R$ 247,00 à vista</OfferSubtitle>
             <PrimaryButton href="https://chat.whatsapp.com/CedVt5xVH841NdmexVpGl2" target="_blank" >Reservar Vaga Com Desconto</PrimaryButton>
-            <OfferSpan>Menos de R$ 1,70 por dia você tem acesso a todo o Curso e aos Bônus Exclusivos.</OfferSpan>
+            <OfferSpan>Menos de R$ 1,60 por dia você tem acesso a todo o Curso e aos Bônus Exclusivos.</OfferSpan>
             <OfferSpan style={{fontWeight: 600}} >Oferta por tempo limitado! Esse preço vai mudar.</OfferSpan>
           </OfferBox>
         </Second>

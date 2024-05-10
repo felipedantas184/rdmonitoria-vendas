@@ -197,7 +197,7 @@ export const OfferCoin = styled.span`
 export const PrimaryButton = styled.button`
   margin-top: 8px;
   margin-bottom: 8px;
-  padding: 16px 24px;
+  padding: 16px 12px;
   background-color: #B78836;
   background: linear-gradient(90deg, #B78836 0%, #FCEEA1 50%, #B78836 100%);
   color: #3A3A3A;
@@ -207,6 +207,7 @@ export const PrimaryButton = styled.button`
   text-transform: uppercase;
   border-radius: 0px 30px;
   font-weight: 600;
+  text-align: center;
 
   display: flex;
   flex-direction: row;
