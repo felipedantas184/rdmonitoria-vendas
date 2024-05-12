@@ -130,6 +130,7 @@ export const PerkSubtitle = styled.h4`
   }
 `
 export const PrimaryButton = styled.a`
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 16px;

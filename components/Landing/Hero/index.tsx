@@ -9,9 +9,8 @@ const Hero = () => {
           <LogoWrapper>
             <Image src={'/assets/images/smallLogo.png'} alt="Curso Matemática Ativa RD Monitoria" fill className={'image'} priority />
           </LogoWrapper>
-          <HeroTitle>Domine agora a Matemática do ENEM e melhore de vez o seu desempenho nos Simulados Enem!</HeroTitle>
-          <HeroSubtitle>É a solução que você precisa para alcançar uma pontuação excelente no vestibular e também ficar mais próximo da sua aprovação dos sonhos!</HeroSubtitle>
-          <PrimaryButton>Garantir Vaga Agora</PrimaryButton>
+          <HeroTitle>Domine agora a Matemática do ENEM e melhore de vez o seu desempenho nos Simulados!</HeroTitle>
+          <PrimaryButton href="https://pay.hotmart.com/C92879724V" target="_blank" >Garantir Vaga com Desconto</PrimaryButton>
         </First>
         <Second>
           <ImageWrapper>

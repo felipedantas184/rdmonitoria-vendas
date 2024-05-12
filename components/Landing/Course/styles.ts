@@ -112,6 +112,7 @@ export const ImageWrapper = styled.div`
     }
 `
 export const PrimaryButton = styled.a`
+  width: 100%;
   margin-top: 16px;
   padding: 12px 18px;
   background-color: #B78836;

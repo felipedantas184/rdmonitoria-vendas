@@ -81,6 +81,7 @@ export const CardSubtitle = styled.h4`
   }
 `
 export const PrimaryButton = styled.a`
+  width: 100%;
   margin-top: 16px;
   padding: 16px 12px;
   background-color: #B78836;

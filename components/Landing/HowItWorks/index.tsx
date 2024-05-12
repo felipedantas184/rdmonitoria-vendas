@@ -40,8 +40,8 @@ const HowItWorks = () => {
           </Card>
           <Card>
             <MdOutlineCardGiftcard size={32} color="#411551" />
-            <CardTitle>3 Bônus Especiais</CardTitle>
-            <CardSubtitle>Ao garantir o seu acesso a Formação você também recebe 3 bônus especiais que vão impulsionar o seu resultado em tempo recorde e facilitar o seu aprendizado.</CardSubtitle>
+            <CardTitle>5 Bônus Especiais</CardTitle>
+            <CardSubtitle>Ao garantir o seu acesso a Formação você também recebe 5 bônus especiais que vão impulsionar o seu resultado em tempo recorde e facilitar o seu aprendizado.</CardSubtitle>
           </Card>
         </CardsWrapper>
       </Wrapper>
