@@ -22,7 +22,7 @@ export default function Home() {
         <meta property="og:title" content="Curso Matemática Ativa ENEM | RD Monitoria" />
         <meta property="og:type" content="school" />
         <meta property="og:description" content="Domine agora a Matemática do ENEM e melhore de vez o seu desempenho nos Simulados Enem!" />
-        <meta property="og:image" content="/apple-touch-icon.png" />
+        <meta property="og:image" content="/logoMatematicaAtiva.jpg" />
         <meta property="og:site_name" content="RD Monitoria" />
 
         <meta property="twitter:title" content="Curso Matemática Ativa ENEM | RD Monitoria" />
