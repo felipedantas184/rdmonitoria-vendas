@@ -37,6 +37,23 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+
+          <link
+            rel="preload"
+            href="/fonts/Brice-RegularSemiExpanded.woff"
+            as="font"
+            type="font/woff"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/Brice-SemiBoldSemiExpanded.woff"
+            as="font"
+            type="font/woff"
+            crossOrigin=""
+          />
+          
 
           <meta charSet="utf-8" />
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -48,7 +65,7 @@ export default class MyDocument extends Document {
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
           <link rel="manifest" href="/site.webmanifest" />
         </Head>
-        
+
         <body>
           <Main />
           <NextScript />
