@@ -309,3 +309,34 @@ width: 100%;
   }
 }
 `
+export const Perk = styled.div`
+  background-color: #FFFFFF;
+  padding: 24px;
+  border-radius: 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+`
+export const PerkTitle = styled.h1`
+  color: #1A1A1A;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Brice Regular SemiExpanded", sans-serif;
+
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
+`
+export const PerkSubtitle = styled.h4`
+  color: #1A1A1A;
+  font-size: 16px;
+  font-weight: 400;
+
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+`

@@ -1,9 +1,9 @@
-import { Achieve, First, ImageWrapper, LogoWrapper, ProgressBar, Second, Section, Subtitle, TeacherAchieves, TeacherName, TeacherWrapper, Teachers, TextWrapper, TimeWrapper, Title, TitleWhite, Topline, ToplineGreen, ToplineRed, WhatsAppButtom, Wrapper } from "./styles";
-import { Perk, PerkSubtitle, PerkTitle } from "../Landing/Perks/styles";
-import { MdOutlineSecurity, MdOutlineVpnKey } from "react-icons/md";
+import { Achieve, First, ImageWrapper, LogoWrapper, Perk, PerkSubtitle, PerkTitle, ProgressBar, Second, Section, Subtitle, TeacherAchieves, TeacherName, TeacherWrapper, Teachers, TextWrapper, TimeWrapper, Title, TitleWhite, Topline, ToplineGreen, ToplineRed, WhatsAppButtom, Wrapper } from "./styles";
+import { MdOutlineVpnKey } from "react-icons/md";
 import { GoVerified } from "react-icons/go";
-import { BiVideo } from "react-icons/bi";
+import { BiBookContent, BiVideo } from "react-icons/bi";
 import Image from "next/image";
+import { BsQuestionCircle } from "react-icons/bs";
 
 const Minicurso = () => {
   return (
@@ -21,7 +21,7 @@ const Minicurso = () => {
               <ToplineGreen>Gratuito</ToplineGreen>
               <TitleWhite>Entre no Grupo e Garanta sua Vaga 👇</TitleWhite>
             </TimeWrapper>
-            <WhatsAppButtom href="https://chat.whatsapp.com/LBVAK6ZhzH6LgBawKFpgxh" target="_blank" >Quero Participar!</WhatsAppButtom>
+            <WhatsAppButtom href="https://chat.whatsapp.com/EP8cF2BaFm7LNSLwjWpzLO" target="_blank" >Quero Participar!</WhatsAppButtom>
           </Second>
         </First>
         <First>
@@ -58,7 +58,7 @@ const Minicurso = () => {
             <TitleWhite>Corre que as Vagas são Limitadas! 👇</TitleWhite>
           </TimeWrapper>
           <ProgressBar><span></span></ProgressBar>
-          <WhatsAppButtom style={{ marginTop: 16 }} href="https://chat.whatsapp.com/LBVAK6ZhzH6LgBawKFpgxh" target="_blank" >Quero Participar!</WhatsAppButtom>
+          <WhatsAppButtom style={{ marginTop: 16 }} href="https://chat.whatsapp.com/EP8cF2BaFm7LNSLwjWpzLO" target="_blank" >Quero Participar!</WhatsAppButtom>
         </Second>
         <First>
           <LogoWrapper>
@@ -68,19 +68,19 @@ const Minicurso = () => {
       </Wrapper>
       <Wrapper>
         <Perk>
-          <MdOutlineVpnKey size={32} color="#765D19" />
+          <BiVideo size={32} color="#020024" />
           <PerkTitle>Aulas Ao Vivo</PerkTitle>
-          <PerkSubtitle>Ao entrar no nosso grupo você receberá todas as informações para participar do nosso Terceiro Aulão de Matemática.</PerkSubtitle>
+          <PerkSubtitle>O Minicurso acontecerá de forma ONLINE E GRATUITA do dia 24/06 (próxima segunda) ao dia 27/06 (quinta-feira)! Para participar basta entrar no Grupo do Minicurso de Férias!</PerkSubtitle>
         </Perk>
         <Perk>
-          <GoVerified size={32} color="#765D19" />
+          <BsQuestionCircle size={32} color="#020024" />
           <PerkTitle>Questões Modelo</PerkTitle>
-          <PerkSubtitle>No grupo você também encontra o link para o nosso drive com as listas dos Aulões, simulados e provas antigas do ENEM</PerkSubtitle>
+          <PerkSubtitle>Todos os dias, você receberá uma lista com os modelos de questões que mais caem no ENEM, separadas por bloco de assuntos para você aprender da maneira mais eficiente possível!</PerkSubtitle>
         </Perk>
         <Perk>
-          <BiVideo size={32} color="#765D19" />
+          <BiBookContent size={32} color="#020024" />
           <PerkTitle>Revisão Teórica</PerkTitle>
-          <PerkSubtitle>Você terá acesso às listas anteriores e às gravações dos aulões e das resoluções do SAS 01 de 2024!</PerkSubtitle>
+          <PerkSubtitle>Além da resolução das questões das listas de questões, durante as aulas nós também revisaremos a parte teórica dos assuntos de forma objetiva para te ajudar a fixar o conhecimento!</PerkSubtitle>
         </Perk>
       </Wrapper>
       <Wrapper>
@@ -89,7 +89,7 @@ const Minicurso = () => {
             <ToplineRed>VAGAS LIMITADAS</ToplineRed>
             <TitleWhite>Entre no Grupo e Garanta sua Vaga 👇</TitleWhite>
           </TimeWrapper>
-          <WhatsAppButtom href="https://chat.whatsapp.com/LBVAK6ZhzH6LgBawKFpgxh" target="_blank" >Quero Participar!</WhatsAppButtom>
+          <WhatsAppButtom href="https://chat.whatsapp.com/EP8cF2BaFm7LNSLwjWpzLO" target="_blank" >Quero Participar!</WhatsAppButtom>
         </Second>
       </Wrapper>
     </Section>
