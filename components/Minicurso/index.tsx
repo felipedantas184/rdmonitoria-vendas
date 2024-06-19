@@ -4,8 +4,34 @@ import { GoVerified } from "react-icons/go";
 import { BiBookContent, BiVideo } from "react-icons/bi";
 import Image from "next/image";
 import { BsQuestionCircle } from "react-icons/bs";
+import { sendContactForm } from "@/lib/api";
 
 const Minicurso = () => {
+  const FirstButton = async (e: any) => {
+		sendContactForm({
+			name: 'Novo Clique - Primeiro Botão',
+			email: 'felipedantas184@gmail.com',
+			subject: 'Novo Clique - Primeiro Botão',
+			observations: 'Novo interessado no curso'
+		})
+	}
+  const SecondButton = async (e: any) => {
+		sendContactForm({
+			name: 'Novo Clique - Segundo Botão',
+			email: 'felipedantas184@gmail.com',
+			subject: 'Novo Clique - Segundo Botão!',
+			observations: 'Novo interessado no curso'
+		})
+	}
+  const ThirdButton = async (e: any) => {
+		sendContactForm({
+			name: 'Novo Clique - Terceiro Botão',
+			email: 'felipedantas184@gmail.com',
+			subject: 'Novo Clique - Terceiro Botão',
+			observations: 'Novo interessado no curso'
+		})
+	}
+
   return (
     <Section>
       <Wrapper>
@@ -21,7 +47,7 @@ const Minicurso = () => {
               <ToplineGreen>Gratuito</ToplineGreen>
               <TitleWhite>Entre no Grupo e Garanta sua Vaga 👇</TitleWhite>
             </TimeWrapper>
-            <WhatsAppButtom href="https://chat.whatsapp.com/EP8cF2BaFm7LNSLwjWpzLO" target="_blank" >Quero Participar!</WhatsAppButtom>
+            <WhatsAppButtom onClick={FirstButton} href="https://chat.whatsapp.com/EP8cF2BaFm7LNSLwjWpzLO" target="_blank" >Quero Participar!</WhatsAppButtom>
           </Second>
         </First>
         <First>
@@ -58,7 +84,7 @@ const Minicurso = () => {
             <TitleWhite>Corre que as Vagas são Limitadas! 👇</TitleWhite>
           </TimeWrapper>
           <ProgressBar><span></span></ProgressBar>
-          <WhatsAppButtom style={{ marginTop: 16 }} href="https://chat.whatsapp.com/EP8cF2BaFm7LNSLwjWpzLO" target="_blank" >Quero Participar!</WhatsAppButtom>
+          <WhatsAppButtom onClick={SecondButton} style={{ marginTop: 16 }} href="https://chat.whatsapp.com/EP8cF2BaFm7LNSLwjWpzLO" target="_blank" >Quero Participar!</WhatsAppButtom>
         </Second>
         <First>
           <LogoWrapper>
@@ -89,7 +115,7 @@ const Minicurso = () => {
             <ToplineRed>VAGAS LIMITADAS</ToplineRed>
             <TitleWhite>Entre no Grupo e Garanta sua Vaga 👇</TitleWhite>
           </TimeWrapper>
-          <WhatsAppButtom href="https://chat.whatsapp.com/EP8cF2BaFm7LNSLwjWpzLO" target="_blank" >Quero Participar!</WhatsAppButtom>
+          <WhatsAppButtom onClick={ThirdButton} href="https://chat.whatsapp.com/EP8cF2BaFm7LNSLwjWpzLO" rel="noreferrer" target="_blank" >Quero Participar!</WhatsAppButtom>
         </Second>
       </Wrapper>
     </Section>
