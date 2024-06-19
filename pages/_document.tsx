@@ -53,7 +53,6 @@ export default class MyDocument extends Document {
             type="font/woff"
             crossOrigin=""
           />
-          
 
           <meta charSet="utf-8" />
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
