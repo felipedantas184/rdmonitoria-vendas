@@ -52,37 +52,42 @@ const Minicurso = () => {
         </First>
       </Wrapper>
       <Wrapper>
-        <Second style={{maxWidth: 500, alignSelf: 'center', marginLeft: 'auto', marginRight: 'auto'}}>
+        <Second style={{ maxWidth: 500, alignSelf: 'center', marginLeft: 'auto', marginRight: 'auto' }}>
           <TimeWrapper>
             <ToplineRed>Vagas Limitadas</ToplineRed>
             <TitleWhite>Corre que as Vagas são Limitadas! 👇</TitleWhite>
           </TimeWrapper>
           <ProgressBar><span></span></ProgressBar>
-          <WhatsAppButtom style={{marginTop: 16}} href="https://chat.whatsapp.com/LBVAK6ZhzH6LgBawKFpgxh" target="_blank" >Quero Participar!</WhatsAppButtom>
+          <WhatsAppButtom style={{ marginTop: 16 }} href="https://chat.whatsapp.com/LBVAK6ZhzH6LgBawKFpgxh" target="_blank" >Quero Participar!</WhatsAppButtom>
         </Second>
+        <First>
+          <LogoWrapper>
+            <Image alt="Cronograma" src={'/assets/images/cronogramaminicurso.png'} fill className={'image'} />
+          </LogoWrapper>
+        </First>
       </Wrapper>
       <Wrapper>
         <Perk>
           <MdOutlineVpnKey size={32} color="#765D19" />
-          <PerkTitle>Acesso à Aula Gratuita</PerkTitle>
+          <PerkTitle>Aulas Ao Vivo</PerkTitle>
           <PerkSubtitle>Ao entrar no nosso grupo você receberá todas as informações para participar do nosso Terceiro Aulão de Matemática.</PerkSubtitle>
         </Perk>
         <Perk>
           <GoVerified size={32} color="#765D19" />
-          <PerkTitle>Super Drive</PerkTitle>
+          <PerkTitle>Questões Modelo</PerkTitle>
           <PerkSubtitle>No grupo você também encontra o link para o nosso drive com as listas dos Aulões, simulados e provas antigas do ENEM</PerkSubtitle>
         </Perk>
         <Perk>
           <BiVideo size={32} color="#765D19" />
-          <PerkTitle>Listas e Gravações</PerkTitle>
+          <PerkTitle>Revisão Teórica</PerkTitle>
           <PerkSubtitle>Você terá acesso às listas anteriores e às gravações dos aulões e das resoluções do SAS 01 de 2024!</PerkSubtitle>
         </Perk>
       </Wrapper>
       <Wrapper>
         <Second>
           <TimeWrapper>
-            <ToplineGreen>Aula Aberta</ToplineGreen>
-            <TitleWhite>Domingo - 21/04<br />ÀS 14h00</TitleWhite>
+            <ToplineRed>VAGAS LIMITADAS</ToplineRed>
+            <TitleWhite>Entre no Grupo e Garanta sua Vaga 👇</TitleWhite>
           </TimeWrapper>
           <WhatsAppButtom href="https://chat.whatsapp.com/LBVAK6ZhzH6LgBawKFpgxh" target="_blank" >Quero Participar!</WhatsAppButtom>
         </Second>
