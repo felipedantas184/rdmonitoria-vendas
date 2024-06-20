@@ -37,7 +37,7 @@ const Minicurso = () => {
       <Wrapper>
         <First>
           <LogoWrapper>
-            <Image src={'/assets/icons/LogoMinicurso.png'} alt="Minicurso de Férias - Matemática | RD Monitoria" fill className={'image'} />
+            <Image src={'/assets/icons/LogoMinicurso.png'} alt="Minicurso de Férias - Matemática | RD Monitoria" fill className={'image'} priority />
           </LogoWrapper>
           <TextWrapper>
             <Subtitle>Resolução de questões, revisão teórica e dicas rápidas</Subtitle>
@@ -54,7 +54,7 @@ const Minicurso = () => {
           <Teachers>
             <TeacherWrapper>
               <ImageWrapper>
-                <Image src={'/assets/images/andreisac.png'} alt="Curso Matemática Ativa RD Monitoria" fill className={'image'} />
+                <Image src={'/assets/images/andreisac.png'} alt="Curso Matemática Ativa RD Monitoria" fill className={'image'} priority />
               </ImageWrapper>
               <TeacherName>André Isac</TeacherName>
               <TeacherAchieves>
@@ -65,7 +65,7 @@ const Minicurso = () => {
             </TeacherWrapper>
             <TeacherWrapper>
               <ImageWrapper>
-                <Image src={'/assets/images/felipedantas.png'} alt="Curso Matemática Ativa RD Monitoria" fill className={'image'} />
+                <Image src={'/assets/images/felipedantas.png'} alt="Curso Matemática Ativa RD Monitoria" fill className={'image'} priority />
               </ImageWrapper>
               <TeacherName>Felipe Dantas</TeacherName>
               <TeacherAchieves>
