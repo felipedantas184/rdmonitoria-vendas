@@ -93,23 +93,6 @@ const Minicurso = () => {
         </First>
       </Wrapper>
       <Wrapper>
-        <Perk>
-          <BiVideo size={32} color="#020024" />
-          <PerkTitle>Aulas Ao Vivo</PerkTitle>
-          <PerkSubtitle>O Minicurso acontecerá de forma ONLINE E GRATUITA do dia 24/06 (próxima segunda) ao dia 27/06 (quinta-feira)! Para participar basta entrar no Grupo do Minicurso de Férias!</PerkSubtitle>
-        </Perk>
-        <Perk>
-          <BsQuestionCircle size={32} color="#020024" />
-          <PerkTitle>Questões Modelo</PerkTitle>
-          <PerkSubtitle>Todos os dias, você receberá uma lista com os modelos de questões que mais caem no ENEM, separadas por bloco de assuntos para você aprender da maneira mais eficiente possível!</PerkSubtitle>
-        </Perk>
-        <Perk>
-          <BiBookContent size={32} color="#020024" />
-          <PerkTitle>Revisão Teórica</PerkTitle>
-          <PerkSubtitle>Além da resolução das questões das listas de questões, durante as aulas nós também revisaremos a parte teórica dos assuntos de forma objetiva para te ajudar a fixar o conhecimento!</PerkSubtitle>
-        </Perk>
-      </Wrapper>
-      <Wrapper>
         <Second>
           <TimeWrapper>
             <ToplineRed>VAGAS LIMITADAS</ToplineRed>
