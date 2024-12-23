@@ -11,8 +11,8 @@ const Prepare = () => {
       <Wrapper>
         <First>
           <TextWrapper>
-            <Topline>GRATUITO</Topline>
-            <Title>Grupo Exclusivo RD Monitoria</Title>
+            <Topline>RD Monitoria</Topline>
+            <Title>Grupo Exclusivo</Title>
             <Subtitle>Acompanhamento SISU 2025, Materiais Grauitos e Interação com a Comunidade</Subtitle>
           </TextWrapper>
           <Teachers>
@@ -140,22 +140,25 @@ const Title = styled.h1`
   color: #FFFFFF;
   font-size: 42px;
   line-height: 60px;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
-  text-shadow: 1px 1px 2px white;
+  line-height: 1.1;
 `
 const Subtitle = styled.h3`
-  color: #E2E2E2;
+  color: #F6F6F6;
   font-size: 16px;
-  text-transform: uppercase;
+  font-weight: 500;
   margin-bottom: 8px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
 `
 const Topline = styled.span`
   color: #E2E2E2;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 500;
   text-transform: uppercase;
-  text-shadow: 1px 1px 2px black;
 `
 const Teachers = styled.div`
   flex: 1;
