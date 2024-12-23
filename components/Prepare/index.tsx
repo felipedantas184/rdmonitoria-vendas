@@ -13,7 +13,7 @@ const Prepare = () => {
           <TextWrapper>
             <Topline>RD Monitoria</Topline>
             <Title>Grupo Exclusivo</Title>
-            <Subtitle>Acompanhamento SISU 2025, Materiais Grauitos e Interação com a Comunidade</Subtitle>
+            <Subtitle>Acompanhamento SISU 2025, Materiais Gratuitos e Interação com a Comunidade</Subtitle>
           </TextWrapper>
           <Teachers>
             <TeacherWrapper>
