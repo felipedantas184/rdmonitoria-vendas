@@ -12,8 +12,8 @@ const Prepare = () => {
         <First>
           <TextWrapper>
             <Topline>RD Monitoria</Topline>
-            <Title>Grupo Exclusivo</Title>
-            <Subtitle>Acompanhamento SISU 2025, Materiais Gratuitos e Interação com a Comunidade</Subtitle>
+            <Title>Evento Gratuito & Grupo Exclusivo</Title>
+            <Subtitle>Prepare-se para o Enem 2025 com quem já trilhou esse caminho!</Subtitle>
           </TextWrapper>
           <Teachers>
             <TeacherWrapper>
@@ -85,7 +85,7 @@ export default Prepare;
 
 const Section = styled.section`
   background: rgb(89, 45, 144);
-  background: linear-gradient(135deg, rgba(89,45,144,1) 0%, rgba(19,0,40,1) 50%);
+  background: linear-gradient(315deg, rgba(89,45,144,1) 0%, rgba(19,0,40,1) 50%);
   padding: 25px 0;
   min-height: 100vh;
 `
