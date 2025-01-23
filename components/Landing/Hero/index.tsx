@@ -14,7 +14,7 @@ const Hero = () => {
         </First>
         <Second>
           <ImageWrapper>
-            <Image src={'/assets/images/heroImage.png'} alt="Curso Matemática Ativa RD Monitoria" fill className={'image'} />
+            <Image src={'/assets/images/imagehero.jpeg'} alt="Curso Matemática Ativa RD Monitoria" fill className={'image'} />
           </ImageWrapper>
         </Second>
       </Wrapper>
