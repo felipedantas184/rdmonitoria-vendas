@@ -19,7 +19,7 @@ const ForWho = () => {
           <Topic><FaCheckSquare size={32} color="#13131A" style={{flex: 1}} /><TopicSpan><strong>Para estagnados:</strong> Quem já faz pontuações não tão baixas, mas que sente que não consegue sair daquele mesma quantidade de acertos na prova de matemática.</TopicSpan></Topic>
           <Topic><FaCheckSquare size={32} color="#13131A" style={{flex: 1}} /><TopicSpan><strong>Para quem quer mais:</strong> Quem está a procura de uma oportunidade de finalmente  romper a barreira dos 35 acertos no bloco de matemática do Enem.</TopicSpan></Topic>
           <Topic><FaCheckSquare size={32} color="#13131A" style={{flex: 1}} /><TopicSpan><strong>Para instáveis:</strong> Se você tem pontuações que oscilam muito entre um simulado e outro, provavelmente te falta uma consolidação melhor dos modelos que mais caem no Enem.</TopicSpan></Topic>
-          <PrimaryButton href="https://pay.hotmart.com/C92879724V" target="_blank" >Garantir Vaga com Desconto</PrimaryButton>
+          <PrimaryButton href="https://pay.hotmart.com/C92879724V?off=w5v30h66&bid=1737662961012" target="_blank" >Garantir Vaga com Desconto</PrimaryButton>
         </Second>
       </Wrapper>
     </Section>

@@ -14,7 +14,7 @@ const Course = () => {
           <Topic><FaCheck size={16} color="#765D19" /><TopicSpan>Ideal para quem está começando ou está preso em uma pontuação;</TopicSpan></Topic>
           <Topic><FaCheck size={16} color="#765D19" /><TopicSpan>Te ajudar a conquistar a vaga dos sonhos na univesidade;</TopicSpan></Topic>
           <Topic><FaCheck size={16} color="#765D19" /><TopicSpan>O passo a passo para aumentar a pontuação.</TopicSpan></Topic>
-          <PrimaryButton href="https://pay.hotmart.com/C92879724V" target="_blank" >Garantir Vaga com Desconto</PrimaryButton>
+          <PrimaryButton href="https://pay.hotmart.com/C92879724V?off=w5v30h66&bid=1737662961012" target="_blank" >Garantir Vaga com Desconto</PrimaryButton>
         </First>
         <Second>
           <ImageWrapper>

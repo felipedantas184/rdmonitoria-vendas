@@ -17,7 +17,7 @@ const FAQ = () => {
     {
       id: '3',
       question: 'Durante quanto tempo terei acesso ao curso?',
-      answer: 'Ao adquirir o Curso Matemática Ativa você terá acesso ao conteúdo durante todo o ano de 2024! Vamos juntos até a realização da sua prova do ENEM!'
+      answer: 'Ao adquirir o Curso Matemática Ativa você terá acesso ao conteúdo durante todo o ano de 2025! Vamos juntos até a realização da sua prova do ENEM!'
     },
     {
       id: '4',
