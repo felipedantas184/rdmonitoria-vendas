@@ -8,7 +8,7 @@ const About = () => {
       <Wrapper>
         <First>
           <ImageWrapper>
-            <Image src={'/assets/images/andreisac.png'} alt="Curso Matemática Ativa RD Monitoria" fill className={'image'} />
+            <Image src={'/assets/images/andreisac.jpeg'} alt="Curso Matemática Ativa RD Monitoria" fill className={'image'} />
           </ImageWrapper>
         </First>
         <Second>
