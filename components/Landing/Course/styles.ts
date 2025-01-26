@@ -129,6 +129,7 @@ export const PrimaryButton = styled.a`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 8px;
   cursor: pointer;
   transition: transform 0.5s ease-in-out;

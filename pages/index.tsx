@@ -10,6 +10,7 @@ import Tired from "@/components/Landing/Tired";
 import Perks from "@/components/Landing/Perks";
 import Head from "next/head";
 import Schedule from "@/components/Landing/Schedule";
+import Testimonials from "@/components/Landing/Testimonials";
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
       <Schedule />
       <About />
       <Offer />
+      <Testimonials />
       <Guarantee />
       <FAQ />
     </>

@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-  background-color: #FBF8F4;
+  background-color: #020024;
   padding: 48px 0;
 `
 export const Wrapper = styled.div`
-  background-color: #FBF8F4;
   max-width: 1280px;
 	margin-left: auto;
 	margin-right: auto;
@@ -18,7 +17,7 @@ export const Wrapper = styled.div`
 `
 export const Topline = styled.span`
   padding: 0 8px;
-  color: #A48C42;
+  color: #F6F6F6;
   font-size: 14px;
   font-weight: 600;
   align-self: flex-start;
@@ -26,7 +25,7 @@ export const Topline = styled.span`
 `
 export const SectionTitle = styled.h2`
   padding: 0 8px;
-  color: #1A1A1A;
+  color: #FFF;
   font-size: 32px;
   font-weight: 600;
   align-self: flex-start;
@@ -35,34 +34,60 @@ export const SectionTitle = styled.h2`
     font-size: 24px;
   }
 `
-export const CardsWrapper = styled.div`
-  margin-top: 16px;
+export const TestimonialsWrapper = styled.div`
+  background-color: #020024;
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+  padding: 8px;
 
-  display: grid;
+	display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  gap: 16px;
 
-  @media screen and (max-width: 960px) {
-    grid-template-columns: repeat(3, 1fr);
-  }
 
   @media screen and (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
   }
 `
-export const Card = styled.div`
+export const ImageWrapper = styled.div`
+  position: relative;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  > div {
+    position: unset !important;
+  }
+
+  .image {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+    transition: transform 0.5s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: transform 0.5s ease-in-out;
+    }
+  }
+`
+export const Perk = styled.div`
+  flex: 1;
   background-color: #FFFFFF;
   padding: 24px;
-  border-radius: 24px 0;
+  border-radius: 24px;
 
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
-  gap: 8px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 `
-export const CardTitle = styled.h1`
+export const PerkTitle = styled.h1`
   color: #1A1A1A;
   font-size: 22px;
   font-weight: 600;
@@ -71,7 +96,12 @@ export const CardTitle = styled.h1`
     font-size: 18px;
   }
 `
-export const CardSubtitle = styled.h4`
+export const PerkTopline = styled.span`
+  color: #A48C42;
+  font-size: 13px;
+  font-weight: 500;
+`
+export const PerkSubtitle = styled.h4`
   color: #1A1A1A;
   font-size: 16px;
   font-weight: 400;
@@ -82,6 +112,8 @@ export const CardSubtitle = styled.h4`
 `
 export const PrimaryButton = styled.a`
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 16px;
   padding: 16px 12px;
   background-color: #B78836;
