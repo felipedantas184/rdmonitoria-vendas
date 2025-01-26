@@ -2,8 +2,17 @@ import { FaCheck, FaX } from "react-icons/fa6";
 import { First, Perk, PerkSubtitle, PerkTitle, PerkTopline, PrimaryButton, Second, Section, SectionTitle, TestimonialsWrapper, Topic, TopicSpan, Wrapper } from "./styles";
 import { MdOutlineSecurity, MdOutlineVpnKey } from "react-icons/md";
 import { GoVerified } from "react-icons/go";
+import { sendContactForm } from "@/lib/api";
 
 const Tired = () => {
+  const FirstButton = async (e: any) => {
+    sendContactForm({
+      name: 'Novo Clique - Cansado Botão',
+      email: 'felipedantas184@gmail.com',
+      subject: 'Novo Clique - Com quem vai aprender Botão',
+      observations: 'Novo interessado no curso'
+    })
+  }
   return (
     <Section>
       <Wrapper>
@@ -21,7 +30,7 @@ const Tired = () => {
         </Second>
       </Wrapper>
       <Wrapper>
-        <SectionTitle style={{fontSize: 20, width: '100%', textAlign: 'center', borderTop: '1px dashed #DFDFDF', paddingTop: 8}} >Exatamente como foi para nossos alunos:</SectionTitle>
+        <SectionTitle style={{ fontSize: 20, width: '100%', textAlign: 'center', borderTop: '1px dashed #DFDFDF', paddingTop: 8 }} >Exatamente como foi para nossos alunos:</SectionTitle>
       </Wrapper>
       <TestimonialsWrapper>
         <Perk>
@@ -55,7 +64,7 @@ const Tired = () => {
           <PerkSubtitle>Aprovado em Medicina na UNINOVAFAPI com as notas do Enem 2023</PerkSubtitle>
         </Perk>
         <div></div>
-        <PrimaryButton href="https://pay.hotmart.com/C92879724V?off=w5v30h66&bid=1737662961012V" target="_blank" >Garantir Vaga com Desconto</PrimaryButton>
+        <PrimaryButton onClick={FirstButton} href="https://pay.hotmart.com/C92879724V?off=w5v30h66&bid=1737662961012V" target="_blank" >Garantir Vaga com Desconto</PrimaryButton>
       </TestimonialsWrapper>
     </Section>
   );

@@ -6,6 +6,7 @@ import { TbTargetArrow } from "react-icons/tb";
 import { LuRefreshCcw } from "react-icons/lu";
 import { MdOutlineCardGiftcard } from "react-icons/md";
 import { RiNumber0, RiNumber1 } from "react-icons/ri";
+import { sendContactForm } from "@/lib/api";
 
 const Schedule = () => {
 
@@ -71,6 +72,15 @@ const Schedule = () => {
     },
   ]
 
+  const FirstButton = async (e: any) => {
+      sendContactForm({
+        name: 'Novo Clique - Cronograma Botão',
+        email: 'felipedantas184@gmail.com',
+        subject: 'Novo Clique - Com quem vai aprender Botão',
+        observations: 'Novo interessado no curso'
+      })
+    }
+
   return (
     <Section>
       <Wrapper>
@@ -85,7 +95,7 @@ const Schedule = () => {
             </Card>
           ))}
         </CardsWrapper>
-        <PrimaryButton href="https://pay.hotmart.com/C92879724V?off=w5v30h66&bid=1737662961012" target="_blank" >Garantir Vaga com Desconto</PrimaryButton>
+        <PrimaryButton onClick={FirstButton} href="https://pay.hotmart.com/C92879724V?off=w5v30h66&bid=1737662961012" target="_blank" >Garantir Vaga com Desconto</PrimaryButton>
       </Wrapper>
     </Section>
   );
