@@ -31,6 +31,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Perks />
+      <Testimonials />
       <Course />
       <ForWho />
       <HowItWorks />
@@ -38,7 +39,6 @@ export default function Home() {
       <Schedule />
       <About />
       <Offer />
-      <Testimonials />
       <Guarantee />
       <FAQ />
     </>
